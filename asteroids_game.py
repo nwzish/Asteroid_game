@@ -435,6 +435,7 @@ class Player:
 
 def gameLoop(startingState):
     # Init variables
+    global player_max_rtspd
     gameState = startingState
     player_state = "Alive"
     player_blink = 0
